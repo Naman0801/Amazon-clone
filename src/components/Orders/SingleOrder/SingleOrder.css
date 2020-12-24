@@ -1,0 +1,26 @@
+.singleOrder {
+  padding: 40px;
+  margin: 20px 0;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+}
+
+.singleOrder__id {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.singleOrder__total {
+  font-weight: 500;
+  text-align: right;
+}
+
+.singleOrder > .checkoutProduct {
+  border: none;
+}
+
+.singleOrder > .checkoutProduct:last-of-type {
+  border-bottom: 1px solid lightgray;
+}
